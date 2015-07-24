@@ -1,0 +1,117 @@
+{
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #fff;
+    background: #fff;
+    font-family: arial;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+/* Star of CSS */
+.header {
+    display: block;
+    margin: 0 auto;
+    height: 220px;
+    width: 900px;
+    padding: 40px;
+}
+.box {
+    margin-top: 25px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: #fff;
+	box-shadow: 5px 5px 10px grey;
+}
+.preview {
+    margin-left: 175px;
+    background: #84befe;
+    width: 725px;
+    height: 250px;
+	font-size: 90px;
+	text-shadow: 5px 5px 10px grey;
+}
+.whole {
+    width: 980px;
+    /*background: #cbe5ff;*/
+	background: -moz-linear-gradient(white, #84befe);
+    margin: 0 auto;
+}
+.container {
+    margin: 0 auto;
+    width: 900px;
+}
+.nav {
+    background: #fff;
+    height: 300px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+.nav :hover{
+    background: #cbe5ff;
+    color: #84befe;
+}
+.nav a {
+    margin: 0 auto;
+    display: inline-block;
+    background: #84befe;
+    padding: 15px 61.6px;
+	border-radius: 0px 15px 0px 0px;
+}
+.last {
+    background: #fff;
+    height: 260px;
+    padding: 2px;
+}
+.left, .right {
+    width: 440px;
+    height: 250px;
+    border-style: dotted;
+    border-color: #ccc;
+	font-size: 30px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.left-head, .right-head {
+    margin: 2px;
+    background: #84befe;
+    width: 435px;
+    height: 50px;
+	border-radius: 0px 0px 20px 20px;
+	/*background: -moz-linear-gradient(LightBlue, #84befe);*/
+}
+.footer {
+    display: inline;
+    width: 3px;
+    padding-top: 5px;
+    padding-left: 783px;
+    color: white;
+    background: #84befe;
+}
+.rect {
+    position: fixed;
+    top: 200px;
+    right: -5px;
+    border-color: #84befe;
+    border-style: dotted;
+    padding: 10px;
+    width: 30px;
+    height: 70px;
+	border-radius: 10px;
+}
+.rect a {
+    color: #84befe;
+    margin: 0 auto;
+}
+
+*{
+	font-family: Comfortaa;
+}

@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #fff;
+    background: #fff;
+    font-family: arial;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+/* Star of CSS */
+.header {
+    display: block;
+    margin: 0 auto;
+    height: 220px;
+    width: 900px;
+    padding: 40px;
+}
+.box {
+    margin-top: 25px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: #fff;
+}
+.preview {
+    margin-left: 175px;
+    background: #84befe;
+    width: 725px;
+    height: 250px;
+}
+.whole {
+    width: 980px;
+    background: #cbe5ff;
+    margin: 0 auto;
+}
+.container {
+    margin: 0 auto;
+    width: 900px;
+}
+.nav {
+    background: #fff;
+    height: 300px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+.nav :hover{
+    background: #cbe5ff;
+    color: #84befe;
+}
+.nav a {
+    margin: 0 auto;
+    display: inline-block;
+    background: #84befe;
+    padding: 15px 61.6px;
+}
+.last {
+    background: #fff;
+    height: 260px;
+    padding: 2px;
+}
+.left, .right {
+    width: 440px;
+    height: 250px;
+    border-style: dotted;
+    border-color: #ccc;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.left-head, .right-head {
+    margin: 2px;
+    background: #84befe;
+    width: 435px;
+    height: 50px;
+}
+.footer {
+    display: inline;
+    width: 3px;
+    padding-top: 5px;
+    padding-left: 783px;
+    color: #84befe;
+    background: #cbe5ff;
+}
+.rect {
+    position: fixed;
+    top: 200px;
+    right: -5px;
+    border-color: #84befe;
+    border-style: dotted;
+    padding: 10px;
+    width: 30px;
+    height: 70px;
+}
+.rect a {
+    color: #84befe;
+    margin: 0 auto;
+}
