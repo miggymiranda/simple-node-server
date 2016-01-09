@@ -19,10 +19,18 @@
        background-color:	#2b60f4;
    }
     .footer{
-       position:relative;
+       position:absolute;
        width:98.5%;
        padding:1.3%;
-       bottom:8;
+       top: 10;
+       background:black;
+   }
+   
+   .footer2{
+       position:absolute;
+       width:98.5%;
+       padding:1.3%;
+       bottom: 0;
        background:black;
    }
    
@@ -47,9 +55,13 @@ function clickme() {
 }
 </script>
 
+<div class="footer2">
+<div class="Nav">
 <a href="#"
-onclick="clickme()" style="position:absolute; left: 50%; font-family:helvetica;">
+onclick="clickme()">
 SHOW MORE</a>
+</div>
+</div>
 
     <div  style="position:absolute;top:40;left:50%;padding:20%;background-color:grey;border-radius:5px;opacity: 0.5;">
         </div>
